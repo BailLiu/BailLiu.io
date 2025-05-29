@@ -1,17 +1,4 @@
 
-/*
-
-  Shape Shifter
-  =============
-  A canvas experiment by Kenneth Cachia
-  http://www.kennethcachia.com
-
-  Updated code
-  ------------
-  https://github.com/kennethcachia/Shape-Shifter
-
-*/
-
 
 var S = {
   init: function () {
@@ -206,7 +193,7 @@ S.UI = (function () {
         default:
           S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'What?' : current));
       }
-    }, 5000, sequence.length);
+    }, 3000, sequence.length);
   }
 
   function checkInputWidth(e) {
