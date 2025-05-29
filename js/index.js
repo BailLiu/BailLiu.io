@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||你|好|世|界|#rectangle|');
+      S.UI.simulate('|#countdown 3||단오의|안녕을|기원합니다|#rectangle|');
     }
 
     S.Drawing.loop(function () {
